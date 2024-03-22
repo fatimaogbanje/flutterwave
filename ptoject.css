@@ -1,0 +1,497 @@
+body {
+  background-color: white;
+}
+.headerImage {
+  width: 180px;
+  height: 80px;
+  float: inline-start;
+  margin: 0px 0px 0px 200px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  line-height: 75px;
+  padding: 0px 120px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: 17px;
+  padding: 0px 16px;
+  display: block;
+}
+nav ul li a:hover {
+  color: blue;
+}
+nav ul li ul {
+  position: absolute;
+  display: none;
+  background-color: whitesmoke;
+  border-radius: 0px 0px 5px 5px;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li ul li {
+  line-height: 1;
+  width: 190px;
+  border-radius: 5px;
+  padding: 6px;
+}
+nav ul li ul li a {
+  padding: 10px;
+}
+nav ul li ul li a:hover {
+  color: blue;
+}
+.signIn {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 100px;
+}
+.signIn:hover{
+  background-color: blue;
+}
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+  margin: 100px 0px 0px 100px;
+}
+.six {
+  color: goldenrod;
+}
+.heroText {
+  height: 100px;
+  font-weight: lighter;
+  line-height: 20px;
+  margin: 0px 0px 0px 100px;
+}
+.create {
+  width: 150px;
+  height: 60px;
+  margin-left: 100px;
+  border-radius: 10px;
+  background-color: midnightblue;
+}
+.contact {
+  width: 150px;
+  height: 60px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.img1 {
+  width: 750px;
+  height: 700px;
+  margin-top: 100px;
+}
+.img2 {
+  width: 550px;
+  height: 700px;
+  float: right;
+  margin-bottom: 500px;
+}
+.send {
+  position: absolute;
+  right: 230;
+  bottom: -860px;
+}
+.heroText2 {
+  font-size: x-large;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.six2 {
+  font-weight: bolder;
+}
+.logo {
+  display: flex;
+  gap: 30px;
+  margin-left: 100px;
+}
+/* .fig1{
+    height: 30px;
+    margin-right: 30px;
+}
+.fig2{
+    height: 30px ;
+    margin-right: 30px;
+}
+.fig3{
+    height: 30px;
+    margin-right: 30px;
+}
+.fig4{
+    height: 30px;
+    margin-right: 30px;
+}
+.fig5{
+    height: 30px;
+    margin-right: 30px;
+} */
+.six {
+  color: goldenrod;
+}
+.one{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.check{
+    width: 300px;
+    height: 90vh;
+}
+.two{
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+.ten{
+    font-size: large;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+
+}
+.get{
+    width: 150px;
+    height: 60px;
+    
+    border-radius: 10px;
+    background-color: midnightblue;
+
+}
+.accept{
+    margin-bottom: 50px;
+    font-size: large;
+}
+.tem2{
+  color: brown;
+}
+
+.tem2:hover{
+    margin-right: 10px;
+    
+}
+.flut{
+  
+  
+
+}
+.fluts{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.store{
+  margin-left: 100px;
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+.store2{
+  border-radius: 10px;
+    background-color: midnightblue;
+    width: 150px;
+    height: 60px;
+    margin-left: 100px ;
+    margin-bottom: 30px;
+
+}
+
+  
+
+.free{
+  font-size: large;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+    margin-left: 100px;
+
+}
+.learn{
+  margin-bottom: 30px;
+  margin-left: 100px;
+  color: brown;
+}
+.pic {
+  width: 570px;
+  height: 600px;
+  margin-right:100px;
+}
+.pic2 {
+  position: absolute;
+    margin-top: -400px;
+    margin-left:100px ;
+    width: 700px;
+    height: 600px;
+}
+.invoice{
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.big{
+  margin-left: 100px;
+  font-size: x-large;
+  margin-bottom: -1px;
+}
+.big2{
+  margin-left: 100px;
+  margin-top: 200px;
+  line-height: 90px;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.get2{
+  width: 150px;
+  height: 80px;
+  margin-top: 50px ;
+  
+  border-radius: 10px;
+  background-color: midnightblue;
+
+}
+.end{
+  background-color:black;
+  height: 1200px;
+  position: relative;
+  
+}
+
+.end1{
+  margin-left: 300px;
+  padding-top: 200px;
+  color: white;
+}
+.end2{
+  margin-left: 300px;
+  line-height: 30px;
+  font-size: 27px;
+  color: white;
+  margin-top: 70px;
+}
+.money{
+  display: flex;
+  color: black;
+  margin-top: 100px;
+  border-radius: 50px;
+  justify-content: space-around;
+}
+
+.money1, .money2, .money3{
+  background-color:palevioletred;
+  width: 600px ;
+  height: 300px ;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+  
+  
+  
+}
+.money1{
+  margin-left: 100px;
+  position:static;
+  box-shadow: 5px 5px 5px  grey;
+  
+}
+   .money2 {
+    margin-right: 65px;
+    margin-left: -700px;
+    box-shadow: 5px 5px 5px  grey;
+   }
+ .money3{
+  margin-left: -750px
+  
+  
+ }  
+   .sent{
+    
+    font-size: xx-large;
+    margin-bottom: 30px;
+   }
+   .sent2{
+    font-size: large;
+    line-height: 1.4rem;
+    margin-bottom: 30px;
+    
+
+
+   }
+   .money1:hover{
+    
+    /* margin-right: 400px; */
+   }
+   .money2:hover{
+    margin-right: 400px;
+    
+
+   }
+   .money3:hover{
+    
+   }
+   .doc{
+    
+    height: 900px;
+    
+
+
+   }
+   .doc1{
+    margin-bottom: 30px;
+
+  
+    
+   }
+   .doc2{
+    margin-left: 100px;
+    
+   }
+   .doc3{
+    line-height: 30px;
+    font-size: 30px;
+    word-spacing: 10px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+   }
+   ul li{
+    list-style: square;
+    
+
+   }
+   .menu{
+    height: 100px;
+    width: 400px;
+    line-height: 40px;
+    font-size: larger;
+    margin-left: 30px;
+   }
+   .menu2{
+    margin-top: 150px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: blue;
+   }
+   .lobe{
+  
+    display: flex;
+    
+    
+    
+
+   }
+   .lobe2{
+   width: 700px;
+   height: 700px;
+   
+   margin-left: 650px ;
+   margin-top: -550px;
+   border-radius: 600px;
+   background-color:darkblue;
+   }
+.Api{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-weight: 1000px;
+  
+}
+.api1{
+  color: aqua;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-weight: 1000px;
+}
+.api2{
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.bank{
+  margin-left: 200px;
+  margin-top: -70px;
+}
+.ready{
+  border: 10px solid;
+  background-color: black;
+  width: 1200px;
+  height: 500px;
+  color: white;
+  border-radius: 50px;
+  margin-top: 200px;
+  margin-left: 70px;
+  margin-bottom: 200px;
+
+}
+.ready2{
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-stretch:wider;
+}
+.grow{
+  display: flex;
+  gap: 80px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.grow2{
+  line-height: 50px;
+}
+.grow2:hover{
+color: aqua;
+  }
+  .twitter{
+    
+    width: 800px;
+    height: 50px;
+    display: inline-flex;
+    float: right;
+    gap: 50px;
+    margin-left:  90px;
+ 
+  }
+  .twit:hover{
+    color: aqua;
+  }
+  
+    
+  
+  .app{
+    display: inline-flex;
+    height: 50px;
+    
+    
+    gap: 80px;
+
+  }
+  .niger{
+    
+    padding: 100px;
+  }
+  .learn2{
+    margin-left: 300px;
+    margin-top: -40px;
+  }
+   
+   
+  
